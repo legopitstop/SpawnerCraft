@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "spawnercraft:breeze_spawn_egg"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [" T ", "SES", " G "],
+    "key": {
+      "E": {
+        "item": "minecraft:egg"
+      },
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "S": {
+        "item": "minecraft:wind_charge"
+      },
+      "T": {
+        "item": "minecraft:breeze_rod"
+      }
+    },
+    "result": [
+      {
+        "item": "minecraft:breeze_spawn_egg",
+        "count": 1
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:wind_charge"
+      },
+      {
+        "item": "minecraft:breeze_rod"
+      }
+    ]
+  }
+}
